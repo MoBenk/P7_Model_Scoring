@@ -32,7 +32,7 @@ def main() :
     def chargement_donnees():
         
         # Informations sur le client choisi dans le jeu de données Test sans Target
-        with open('https://github.com/MoBenk/P7_Model_Scoring/find/main/informations_client_test.pkl', 'rb') as f:                  
+        with open('https://github.com/MoBenk/P7_Model_Scoring/blob/main/informations_client_test.pkl', 'rb') as f:                  
             informations_client_test =pickle.load(f)
         with open('https://github.com/MoBenk/P7_Model_Scoring/blob/main/selection_clients.pkl', 'rb') as f:                  
             selection_clients =pickle.load(f)
